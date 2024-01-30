@@ -1,0 +1,170 @@
+body {
+    font-family: 'Quicksand', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    ;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid; */
+
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    /* border: 1px solid; */
+}
+
+/* .nav-toggle{
+    flex-shrink: 0;
+} */
+.nav{
+    display: flex;
+   padding: 15px 25px;
+    /* border: 1px solid; */
+    justify-content: space-between;
+}
+.logo{
+   font-size: 40px;
+   padding:10px
+}
+.nav-list {
+    flex-shrink: 0;
+    width: 400px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+.nav-list a{
+    text-decoration: none;
+    text-transform: none;
+    color: black;
+}
+
+
+.hero{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 120px;
+    height:  600px;
+    margin-bottom: 50px;
+}
+
+.hero-bold{
+    width: 600px;
+    font-size: 60px;
+    font-weight: 700;
+
+}
+
+.hero-title{
+    margin-top: 20px;
+    width: 400px;
+    font-weight: 300;
+    font-size: 18px;
+}
+.img-hero{
+    height: 400px;
+    width: 400px;
+}
+.btn-price{
+    padding: 10px 15px;
+    background-color: white;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    color: black;
+    margin-top: 15px;
+}
+.info{
+    /* border: 1px solid; */
+    margin-top: 30px;
+}
+
+.info-text {
+    text-align: center;
+}
+
+.info-text h1{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+
+.info-text p{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 28px;
+}
+
+.grid-container {
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+   padding: 122px 0;
+}
+
+.grid-item img{
+    height: 70px;
+}
+  .grid-item {
+    display: flex;
+    align-items: center;
+  }
+
+  .grid-item h3{
+    margin-left: 30px;
+  }
+
+  .superiority{
+    display: flex;
+    /* border: 1px solid; */
+    align-items: center;
+    height: 100vh;
+    
+  }
+
+  .superiority-title{
+    width: 40%;
+    
+  }
+
+  .superiority-title h1{
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 700;
+    line-height:50px ;
+  }
+
+  .superiority-title p{
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 10px;
+  }
+
+  .superiority-img{
+    height: 300px;
+    width: 500px;
+    /* border: 1px solid; */
+}
+
+.btn-superiority{
+    margin-top: 40px;
+    padding: 10px 15px;
+    background-color: white;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    height: 50px;
+}
