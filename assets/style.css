@@ -107,21 +107,35 @@ body {
     line-height: 28px;
 }
 
-.grid-container {
-    width: 100%;
+/* .grid-container {
+    /* width: 100%;
     align-items: center;
     justify-content: space-between;
     display: flex;
-   padding: 122px 0;
-}
+   padding: 122px 0; */
+
+   .grid-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 122px 0;
+  }
+
+  .grid-item {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+  }
 
 .grid-item img{
     height: 70px;
 }
-  .grid-item {
+  /* .grid-item {
     display: flex;
     align-items: center;
-  }
+  } */
 
   .grid-item h3{
     margin-left: 30px;
@@ -167,4 +181,85 @@ body {
     font-weight: 700;
     font-size: 18px;
     height: 50px;
+}
+
+
+/* .price{
+    background-color: #2f9456 ;
+} */
+
+.price-text{
+    width: 100%;
+    text-align: center;
+}
+
+.price-text h1{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+
+.price-text p{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 28px;
+}
+
+.switcher{
+    display: flex;
+    justify-content:center
+}
+
+.row-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 2px;
+    /* padding: 0px 60px; */
+}
+
+.card-price{
+    height: 100%;
+    margin: auto;
+    width: 60%;
+    background:#f9fafb;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 20px 30px;
+    line-height: 35px;
+}
+
+.card-price h2{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card-price h3{
+    font-size: 40px;
+}
+
+.card-price span{
+    font-size: 15px;
+}
+
+.card-price-list{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    /* padding: 10px 20px; */
+}
+
+.card-price-list p{
+    margin-left: 10px;
+}
+
+.card-price button{
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    padding: 15px 100px;
+    color: white;
+    background-color: rgb(75, 70, 70);
+    
 }
