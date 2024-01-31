@@ -192,6 +192,7 @@ body {
 
 .price {
     height: 100vh;
+    padding: 30px 60px;
 }
 
 .price-text {
@@ -254,6 +255,9 @@ margin-bottom: 30px;
 }
 
 .card-price {
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-between;
     height: 100%;
     margin: auto;
     width: 60%;
