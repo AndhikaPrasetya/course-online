@@ -192,7 +192,7 @@ body {
 
 .price {
     height: 100vh;
-    padding: 30px 60px;
+    padding: auto;
 }
 
 .price-text {
@@ -250,15 +250,14 @@ margin-bottom: 30px;
 .row-card {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2px;
     /* padding: 0px 60px; */
 }
-
+ 
 .card-price {
     display: flex;
     flex-direction:column ;
     justify-content: space-between;
-    height: 100%;
+    height: 50vh;
     margin: auto;
     width: 60%;
     background: #f9fafb;
@@ -307,4 +306,87 @@ margin-bottom: 30px;
     padding: 15px 100px;
     color: white;
     background-color: rgb(75, 70, 70);
+}
+
+
+.deskripsi-testi{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    padding: 10px 30px;
+    
+}
+
+.deskripsi-testi-title{
+    font-size: 30px;
+    /* border: 1px solid; */
+}
+
+.user-testi{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    width: 100vh;
+}
+
+.user-profile{
+    display: flex;
+    padding: 0 20px;
+}
+.user-profile img {
+    height: 30px;
+}
+
+.user-profile p{
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.user-testi-desc{
+    /* border: 1px solid; */
+    width: 70%;
+    padding: 30px 30px;
+} 
+
+.user-testi-desc img{
+    margin-top: 30px;
+    height: 10px;
+}
+
+
+.jumbotron{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+.jumbotron-title{
+    /* border: 1px solid; */
+    line-height: 40px;
+    text-transform: capitalize;
+    width: 50%;
+}
+
+.jumbotron-title h1 {
+    font-size:  40px;
+}
+
+.jumbotron-title p{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.btn-jumbotron{
+    padding-right: 100px;
+}
+.btn-jumbotron button{
+    margin-top: 40px;
+    padding: 10px 15px;
+    background-color: white;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    height: 50px;
 }
